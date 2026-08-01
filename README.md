@@ -1,328 +1,216 @@
-# <img src="logo.png" width="50"> Concrete Strength Analytics & Six Sigma Intelligence Platform
-
-### 📊 AI-Powered Construction Quality Intelligence for Concrete Strength Evaluation, ACI Compliance & Six Sigma Analytics
-
-<p align="center">
-<img src="dashboard-page1.jpg" width="900">
-</p>
-
-
-
-### 🚀 Built With
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
-<img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit">
-<img src="https://img.shields.io/badge/Pandas-Analytics-150458?style=for-the-badge&logo=pandas">
-<img src="https://img.shields.io/badge/Plotly-Dashboard-3F4F75?style=for-the-badge&logo=plotly">
-<img src="https://img.shields.io/badge/Six_Sigma-Quality-purple?style=for-the-badge">
-
-
-</p>
-
-
-## 🎥 Platform Walkthrough
-
-▶ **Watch Demo Video**
-
-https://www.linkedin.com/posts/janice13_demo-file-for-concrete-strength-analytics-ugcPost-7471777343473332225-JoWa/
-
+---
+title: DQIP Digital Quality Intelligence Platform
+emoji: 📊
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 8501
+pinned: false
+license: mit
 ---
 
-## 📌 Project Overview
+# DQIP — Digital Quality Intelligence Platform
+
+### Cross-domain quality analytics, Six Sigma intelligence, risk reasoning, corrective action, and executive reporting
 
-Most construction projects evaluate concrete quality based on whether cube strength meets the specified grade.
+**Developed by Janice Benita F.**
 
-However, passing strength alone does not guarantee process stability, consistency, or quality excellence.
+[![Live application](https://img.shields.io/badge/Live%20Application-Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/janicecodes/Concrete_strength_analysis_and_6_sigma_intelligence)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Application-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-16A34A)](#license)
 
-This platform transforms routine concrete cube testing data into actionable engineering intelligence by combining:
+## Overview
 
-✅ Concrete Strength Analytics
+DQIP is a configurable decision-support platform that converts engineering, laboratory, operational, pharmaceutical, and environmental quality data into actionable intelligence.
 
-✅ ACI Acceptance Verification
+The platform uses one reusable analytics core while preserving the schema, terminology, units, acceptance limits, risk interpretation, standards context, likely causes, corrective measures, and report language required by each quality domain.
 
-✅ Six Sigma Process Capability Analysis
+> **Validation statement:** Construction Quality is the validated demonstration workflow. Manufacturing, Laboratory QA, Healthcare, Pharmaceuticals, and Environmental Monitoring are illustrative model profiles. Their methods, limits, calculations, references, and recommendations require independent validation before production use.
 
-✅ Statistical Quality Control
+## Six-domain platform demonstration
 
-✅ Risk Intelligence & Anomaly Detection
+[▶ Download or watch the six-minute DQIP demonstration](media/dqip-six-domain-demo.mp4)
 
-✅ Executive Quality Dashboards
+![DQIP six-domain demonstration overview](docs/dqip-six-domain-overview.png)
 
-The result is a data-driven quality intelligence system that helps engineers identify hidden risks, monitor process capability, and make informed quality decisions before issues impact construction performance.
+## Quality domains
 
----
+| Domain | Demonstrated characteristic | Example intelligence |
+|---|---|---|
+| Construction Quality | 28-day concrete cube strength | Grade compliance, strength variation, supplier and mix performance |
+| Manufacturing | Dimensional inspection | Tolerance compliance, machine and line comparison, tool or process drift |
+| Laboratory QA | Analytical pH result | Instrument comparison, method limits, exceptions and repeatability |
+| Healthcare | Operational waiting time | Service-target compliance, department and shift performance |
+| Pharmaceuticals | Assay and dissolution | Batch and product compliance, specification risk and release-quality trends |
+| Environmental Monitoring | pH, turbidity and chlorine | Parameter limits, site trends, exceedances and monitoring risk |
 
-## 🎯 Why This Platform?
+Each profile includes its own preloaded demonstration dataset and accepts a domain-specific CSV or Excel upload.
 
-In many construction projects, concrete quality evaluation stops once the cube strength meets the specified grade.
+## Core capabilities
 
-However, passing strength alone does not always indicate a stable and capable production process.
+- Domain-aware input validation and schema mapping
+- Interactive trend, distribution and comparison charts
+- Mean, standard deviation, variance, range and coefficient of variation
+- Cp, Cpk, Pp, Ppk and related process-capability measures
+- Sigma level, observed yield, defect rate and DPMO
+- Statistical process-control and abnormality signals
+- Compliance and exception identification
+- Plain-language risk classification and interpretation
+- Possible-cause analysis and domain-specific corrective measures
+- Evaluated CSV or Excel export
+- Domain-labelled PDF reports and print-ready executive dashboards
+- Transparent standards references and validation boundaries
 
-Hidden risks such as:
+## DQIP workflow
 
-- High variation in concrete strength
-- Process instability
-- Supplier inconsistency
-- Gradual quality deterioration
-- Statistical non-conformance
+```mermaid
+flowchart LR
+    A[Domain profile] --> B[CSV or Excel input]
+    B --> C[Schema validation]
+    C --> D[Domain-specific rules]
+    D --> E[Statistical and Six Sigma analytics]
+    E --> F[Risk and abnormality intelligence]
+    F --> G[Reasons and corrective actions]
+    G --> H[Dashboard and PDF reporting]
+```
 
-often remain unnoticed until they impact project quality.
+## Architecture
 
-This platform transforms routine cube testing data into actionable engineering intelligence, enabling proactive quality management and data-driven decision making.
+```mermaid
+flowchart TB
+    UI[Streamlit application] --> PROFILE[Domain profile configuration]
+    PROFILE --> DATA[Data services]
+    PROFILE --> RULES[Rule and reference services]
+    DATA --> ANALYTICS[Analytics and capability engine]
+    RULES --> ANALYTICS
+    ANALYTICS --> RISK[Risk and reasoning services]
+    RISK --> VIS[Visualisation services]
+    RISK --> REPORT[Reporting services]
+    VIS --> UI
+    REPORT --> UI
+```
 
----
+## AI Storytelling Video Generator
 
-## 📊 Key Capabilities
+DQIP includes a one-click multimedia demonstration system. Select **Generate AI Demo Video** from the sidebar to automatically:
 
-### 🏗️ Concrete Strength Analytics
+1. Start an isolated local DQIP session.
+2. Use Playwright to navigate through all six domains.
+3. Load the supplied sample data and perform realistic interactions.
+4. Record scrolling, clicks, chart focus, dashboards and reports.
+5. Generate professional Indian-English female narration using Microsoft Edge TTS.
+6. Create synchronized SRT subtitles.
+7. Add an original low-volume corporate music bed with narration ducking.
+8. Render a presentation-ready MP4 without manual editing.
 
-- Concrete strength evaluation
-- Characteristic strength analysis
-- Grade-wise performance monitoring
-- Structure-wise quality assessment
-- Supplier benchmarking
-- Mix design performance evaluation
+Generated outputs:
 
-### 🎯 Six Sigma Quality Intelligence
+- `demo_storytelling_video.mp4`
+- `demo_storytelling_video.srt`
+- `voice.wav`
 
-- Sigma Level Calculation
-- Cp (Process Capability)
-- Cpk (Process Performance)
-- Coefficient of Variation (CV)
-- Defect Percentage Analysis
-- Process Stability Monitoring
+Video specification: **1920 × 1080, 30 FPS, H.264 video and AAC audio**.
 
-### ✅ ACI Compliance Verification
+## Technology stack
 
-Automatically evaluates concrete acceptance using ACI-style acceptance criteria and highlights non-compliance risks.
-
-### ⚠️ Risk Intelligence Engine
-
-Automatically detects:
-
-- Statistical outliers
-- Sudden strength drops
-- Abnormal quality trends
-- Process instability
-- Potential non-compliance risks
-
-### 📈 Executive Decision Support
-
-Provides management-ready dashboards for:
-
-- QA/QC Teams
-- Construction Managers
-- Consultants
-- Corporate Quality Teams
-- Project Leadership
-
----
-
-## 💼 Business Impact
-
-### Traditional Approach
-
-❌ Manual Excel Analysis
-
-❌ Time-Consuming Interpretation
-
-❌ Delayed Risk Detection
-
-❌ Limited Statistical Insights
-
-❌ Dependence on Individual Expertise
-
-### Platform Approach
-
-✅ Automated Quality Intelligence
-
-✅ Instant Six Sigma Analysis
-
-✅ Automated ACI Verification
-
-✅ Early Risk Identification
-
-✅ Executive-Level Decision Support
-
-✅ Data-Driven Quality Management
-
----
-
-## 🏗️ System Architecture
-
-The platform follows a structured analytics workflow:
-
-**Excel Upload → Validation Engine → Quality Analytics → Six Sigma Evaluation → Risk Intelligence → Executive Dashboards**
-
-This transforms raw concrete test records into actionable quality intelligence within seconds.
-
-### Architecture Diagram
-
-![Architecture](architecture.png)
-
----
-
-## 🖥️ Platform Screenshots
-
-### Dashboard Page 1 – Executive Quality Intelligence
-
-![Dashboard Page 1](dashboard-page1.jpg)
-
-### Dashboard Page 2 – Risk Intelligence & Opportunity Analytics
-
-![Dashboard Page 2](dashboard-page2.jpg)
-
----
-
-## ✨ Features
-
-### 📁 Data Management
-
-- Excel Upload
-- Automatic Validation
-- Data Cleansing
-- Column Mapping
-- Quality Checks
-
-### 📊 Engineering Analytics
-
-- Strength Trends
-- Characteristic Strength
-- Supplier Performance
-- Structure Performance
-- Mix Design Analysis
-
-### 📈 Six Sigma Monitoring
-
-- Sigma Level
-- Cp
-- Cpk
-- Process Capability
-- Variation Analysis
-
-### 🚦 Risk Intelligence
-
-- Outlier Detection
-- Process Instability Monitoring
-- Quality Risk Classification
-- Non-Conformance Detection
-
-### 📤 Reporting
-
-- Executive Dashboards
-- Quality Intelligence Reports
-- Compliance Summaries
-- Exportable Analytics
-
----
-
-## 🎯 Future Vision
-
-The long-term vision is to evolve this platform into a comprehensive **Construction Quality Intelligence System** featuring:
-
-- Predictive Strength Forecasting
-- AI-Based Quality Recommendations
-- Supplier Risk Scoring
-- SPC Automation
-- Digital Twin Integration
-- Enterprise Construction Intelligence
-
----
-
-## 🛠️ Technology Stack
-
-- Python
+- Python 3.11
 - Streamlit
-- Pandas
-- NumPy
+- Pandas and NumPy
 - Plotly
-- OpenPyXL
+- OpenPyXL and xlrd
+- ReportLab
+- Playwright and Chromium
+- Microsoft Edge TTS
+- FFmpeg and imageio-ffmpeg
 
----
-
-## 🚀 Run the Application
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Open:
-
-
-## 🌐 Live Application
-
-Try the platform directly in your browser:
-
-👉 **[Launch Interactive Dashboard](https://huggingface.co/spaces/janicecodes/Concrete_strength_analysis_and_6_sigma_intelligence)**
-
-No installation required.
-
----
-
-## 🚀 Run the Application Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Open locally:
+## Repository structure
 
 ```text
-http://localhost:8501
+.
+├── app.py                    # Streamlit user interface and domain dashboards
+├── analytics.py              # Concrete analytics and capability calculations
+├── storytelling.py          # One-click video-generation orchestrator
+├── screen_recorder.py        # Playwright browser automation and recording
+├── voice_generator.py        # Indian-English narration and corporate music
+├── subtitle_generator.py     # Narration-synchronised SRT generation
+├── video_renderer.py         # H.264/AAC composition and subtitle burn-in
+├── scene_manager.py          # Scene models and timeline control
+├── sample_script.py          # Six-domain narration and visual plan
+├── sample_data/              # Domain-specific CSV demonstrations
+├── SQC Data.xls              # Concrete-quality sample workbook
+├── requirements.txt
+└── Dockerfile
 ```
 
----
+## Run locally
 
-## 👩‍💻 Developed By
+### Standard Python environment
 
-### Janice Benita F
+```bash
+python -m venv .venv
+```
 
-**B.Tech Information Technology**
+Activate the virtual environment, then install the dependencies:
 
-Areas of Interest:
+```bash
+pip install -r requirements.txt
+python -m playwright install chromium
+streamlit run app.py
+```
 
-- Artificial Intelligence
-- Computer Vision
-- Explainable AI (XAI)
-- Data Analytics
-- Construction Quality Intelligence
-- Industrial AI Applications
+Open `http://localhost:8501`.
 
----
+FFmpeg must be installed and available on `PATH` when running outside Docker.
 
-## 🌟 Related Projects
+### Docker
 
-- 🏥 EndoXAI – Explainable AI for Root Canal Treatment Prediction
-- 🏗️ AI-Powered Concrete Crack Detection System with Explainable AI
-- 📊 Concrete Strength Analytics & Six Sigma Intelligence Platform
+```bash
+docker build -t dqip .
+docker run --rm -p 8501:8501 dqip
+```
 
----
+The Docker image installs FFmpeg and Playwright Chromium automatically.
 
-## 🤝 Feedback & Collaboration
+## Data guidance
 
-Construction professionals, QA/QC engineers, Six Sigma practitioners, and data analytics experts are invited to explore the platform and provide feedback.
+- Use authorised, de-identified and quality-controlled data only.
+- Confirm units and specification limits before interpreting results.
+- Do not use illustrative profiles for regulated or safety-critical decisions without validation.
+- Healthcare demonstrations are operational and are not intended for clinical diagnosis.
+- Review every recommended corrective action with an authorised domain specialist.
 
-Your suggestions will help shape future versions of the system and contribute to smarter construction quality management solutions.
+## Intended users
 
----
+- Quality engineers and Six Sigma practitioners
+- Construction QA/QC teams
+- Manufacturing and process engineers
+- Laboratory managers and analysts
+- Healthcare quality and operations teams
+- Pharmaceutical quality professionals
+- Environmental monitoring specialists
+- Researchers, educators and digital-transformation teams
 
-### 🏆 Built for Data-Driven Construction Quality Excellence
+## Roadmap
 
-Transforming concrete test data into engineering intelligence through analytics, Six Sigma methodology, and AI-driven decision support.
+- Validated domain rule libraries
+- User-configurable specifications and reference frameworks
+- Predictive quality and early-warning models
+- Role-based access and audit trails
+- Database, LIMS, MES and IoT integrations
+- Scheduled enterprise reporting
+- Explainable AI-assisted investigation workflows
 
----
+## Author
 
-## 🔗 Connect
+**Janice Benita F.**<br>
+B.Tech Information Technology
 
-- GitHub: https://github.com/Janicebenita
-- LinkedIn: https://linkedin.com/in/janice13
+- [GitHub](https://github.com/Janicebenita)
+- [LinkedIn](https://linkedin.com/in/janice13)
 
-## 📜 License
+Feedback and collaboration from quality professionals, engineers, researchers and domain specialists are welcome.
 
-This project is licensed under the MIT License.
+## License
 
-See the LICENSE file for details.
+This project is licensed under the MIT License. Domain standards and referenced publications remain the property of their respective organisations.

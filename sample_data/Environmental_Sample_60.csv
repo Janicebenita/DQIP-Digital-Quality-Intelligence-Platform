@@ -1,0 +1,61 @@
+Sample_ID,Sample_Date,Location,pH_LSL,pH_USL,Turbidity_Max_NTU,Chlorine_LSL_mgL,Chlorine_USL_mgL,pH_Result,Turbidity_NTU,Chlorine_mgL,Status,Remarks,Corrective_Action
+E001,2026-06-01,WTP-01,6.5,8.5,5,0.2,1,7.02,3.72,0.5,OK,All parameters acceptable,Routine monitoring
+E002,2026-06-02,WTP-02,6.5,8.5,5,0.2,1,6.73,1.56,0.55,OK,All parameters acceptable,Routine monitoring
+E003,2026-06-03,WTP-03,6.5,8.5,5,0.2,1,7.27,3.01,0.42,OK,All parameters acceptable,Routine monitoring
+E004,2026-06-04,WTP-04,6.5,8.5,5,0.2,1,7.15,2.68,0.61,OK,All parameters acceptable,Routine monitoring
+E005,2026-06-05,WTP-05,6.5,8.5,5,0.2,1,6.97,2.9,0.71,OK,All parameters acceptable,Routine monitoring
+E006,2026-06-06,WTP-06,6.5,8.5,5,0.2,1,8.72,2.5,0.63,FAIL,Non-compliance: pH,Resample and investigate treatment process
+E007,2026-06-07,WTP-01,6.5,8.5,5,0.2,1,7.07,1.68,0.63,OK,All parameters acceptable,Routine monitoring
+E008,2026-06-08,WTP-02,6.5,8.5,5,0.2,1,7.56,2.47,0.69,OK,All parameters acceptable,Routine monitoring
+E009,2026-06-09,WTP-03,6.5,8.5,5,0.2,1,6.74,4.46,0.58,OK,All parameters acceptable,Routine monitoring
+E010,2026-06-10,WTP-04,6.5,8.5,5,0.2,1,6.95,2.84,0.46,OK,All parameters acceptable,Routine monitoring
+E011,2026-06-11,WTP-05,6.5,8.5,5,0.2,1,7.26,4,0.66,OK,All parameters acceptable,Routine monitoring
+E012,2026-06-12,WTP-06,6.5,8.5,5,0.2,1,7.31,1.84,0.73,OK,All parameters acceptable,Routine monitoring
+E013,2026-06-13,WTP-01,6.5,8.5,5,0.2,1,7.28,6.8,0.6,FAIL,Non-compliance: turbidity,Resample and investigate treatment process
+E014,2026-06-14,WTP-02,6.5,8.5,5,0.2,1,6.64,1.32,0.62,OK,All parameters acceptable,Routine monitoring
+E015,2026-06-15,WTP-03,6.5,8.5,5,0.2,1,6.92,1.38,0.41,OK,All parameters acceptable,Routine monitoring
+E016,2026-06-16,WTP-04,6.5,8.5,5,0.2,1,7.24,3.73,0.48,OK,All parameters acceptable,Routine monitoring
+E017,2026-06-17,WTP-05,6.5,8.5,5,0.2,1,7.24,2.39,0.58,OK,All parameters acceptable,Routine monitoring
+E018,2026-06-18,WTP-06,6.5,8.5,5,0.2,1,7.66,2.26,0.7,OK,All parameters acceptable,Routine monitoring
+E019,2026-06-19,WTP-01,6.5,8.5,5,0.2,1,7,0.3,0.5,OK,All parameters acceptable,Routine monitoring
+E020,2026-06-20,WTP-02,6.5,8.5,5,0.2,1,7.18,2.43,0.59,OK,All parameters acceptable,Routine monitoring
+E021,2026-06-21,WTP-03,6.5,8.5,5,0.2,1,6.31,2.4,0.6,FAIL,Non-compliance: pH,Resample and investigate treatment process
+E022,2026-06-22,WTP-04,6.5,8.5,5,0.2,1,7.2,4.05,0.67,OK,All parameters acceptable,Routine monitoring
+E023,2026-06-23,WTP-05,6.5,8.5,5,0.2,1,7.09,2.59,0.85,OK,All parameters acceptable,Routine monitoring
+E024,2026-06-24,WTP-06,6.5,8.5,5,0.2,1,7.37,1.51,0.75,OK,All parameters acceptable,Routine monitoring
+E025,2026-06-25,WTP-01,6.5,8.5,5,0.2,1,6.39,2.84,0.56,FAIL,Non-compliance: pH,Resample and investigate treatment process
+E026,2026-06-26,WTP-02,6.5,8.5,5,0.2,1,7.44,2.53,0.52,OK,All parameters acceptable,Routine monitoring
+E027,2026-06-27,WTP-03,6.5,8.5,5,0.2,1,7.76,3.06,0.4,OK,All parameters acceptable,Routine monitoring
+E028,2026-06-28,WTP-04,6.5,8.5,5,0.2,1,7.39,2.68,0.74,OK,All parameters acceptable,Routine monitoring
+E029,2026-06-29,WTP-05,6.5,8.5,5,0.2,1,6.95,4.02,0.58,OK,All parameters acceptable,Routine monitoring
+E030,2026-06-30,WTP-06,6.5,8.5,5,0.2,1,7.15,1.34,0.42,OK,All parameters acceptable,Routine monitoring
+E031,2026-07-01,WTP-01,6.5,8.5,5,0.2,1,7.19,1.78,0.42,OK,All parameters acceptable,Routine monitoring
+E032,2026-07-02,WTP-02,6.5,8.5,5,0.2,1,7.09,0.74,0.63,OK,All parameters acceptable,Routine monitoring
+E033,2026-07-03,WTP-03,6.5,8.5,5,0.2,1,7.65,3.1,0.64,OK,All parameters acceptable,Routine monitoring
+E034,2026-07-04,WTP-04,6.5,8.5,5,0.2,1,7.14,2.2,0.12,FAIL,Non-compliance: residual chlorine,Resample and investigate treatment process
+E035,2026-07-05,WTP-05,6.5,8.5,5,0.2,1,7.03,2.08,0.64,OK,All parameters acceptable,Routine monitoring
+E036,2026-07-06,WTP-06,6.5,8.5,5,0.2,1,6.49,2.98,0.78,FAIL,Non-compliance: pH,Resample and investigate treatment process
+E037,2026-07-07,WTP-01,6.5,8.5,5,0.2,1,6.56,2.18,0.83,OK,All parameters acceptable,Routine monitoring
+E038,2026-07-08,WTP-02,6.5,8.5,5,0.2,1,7.04,2.03,0.5,OK,All parameters acceptable,Routine monitoring
+E039,2026-07-09,WTP-03,6.5,8.5,5,0.2,1,7.07,2.21,0.59,OK,All parameters acceptable,Routine monitoring
+E040,2026-07-10,WTP-04,6.5,8.5,5,0.2,1,7.43,1.38,0.26,OK,Turbidity rising after rainfall; enhanced monitoring,Routine monitoring
+E041,2026-07-11,WTP-05,6.5,8.5,5,0.2,1,7.39,2.13,0.83,OK,Turbidity rising after rainfall; enhanced monitoring,Routine monitoring
+E042,2026-07-12,WTP-06,6.5,8.5,5,0.2,1,7.64,1.95,0.81,OK,Turbidity rising after rainfall; enhanced monitoring,Routine monitoring
+E043,2026-07-13,WTP-01,6.5,8.5,5,0.2,1,7.29,2.48,0.51,OK,Turbidity rising after rainfall; enhanced monitoring,Routine monitoring
+E044,2026-07-14,WTP-02,6.5,8.5,5,0.2,1,7.68,3.8,0.68,OK,All parameters acceptable,Routine monitoring
+E045,2026-07-15,WTP-03,6.5,8.5,5,0.2,1,7.16,2.07,0.7,OK,All parameters acceptable,Routine monitoring
+E046,2026-07-16,WTP-04,6.5,8.5,5,0.2,1,6.83,2.78,0.52,OK,All parameters acceptable,Routine monitoring
+E047,2026-07-17,WTP-05,6.5,8.5,5,0.2,1,7.33,5.9,0.59,FAIL,Non-compliance: turbidity,Resample and investigate treatment process
+E048,2026-07-18,WTP-06,6.5,8.5,5,0.2,1,7.21,1.77,0.72,OK,All parameters acceptable,Routine monitoring
+E049,2026-07-19,WTP-01,6.5,8.5,5,0.2,1,6.88,2.1,0.5,OK,All parameters acceptable,Routine monitoring
+E050,2026-07-20,WTP-02,6.5,8.5,5,0.2,1,7.19,2.3,0.64,OK,All parameters acceptable,Routine monitoring
+E051,2026-07-21,WTP-03,6.5,8.5,5,0.2,1,7.46,3.63,0.46,OK,All parameters acceptable,Routine monitoring
+E052,2026-07-22,WTP-04,6.5,8.5,5,0.2,1,7.24,3.19,0.83,OK,All parameters acceptable,Routine monitoring
+E053,2026-07-23,WTP-05,6.5,8.5,5,0.2,1,7.37,3.37,0.21,OK,All parameters acceptable,Routine monitoring
+E054,2026-07-24,WTP-06,6.5,8.5,5,0.2,1,7.13,0.56,0.72,OK,All parameters acceptable,Routine monitoring
+E055,2026-07-25,WTP-01,6.5,8.5,5,0.2,1,7.11,3.53,0.72,OK,All parameters acceptable,Routine monitoring
+E056,2026-07-26,WTP-02,6.5,8.5,5,0.2,1,7.16,3.81,0.78,OK,All parameters acceptable,Routine monitoring
+E057,2026-07-27,WTP-03,6.5,8.5,5,0.2,1,7.19,2.32,0.53,OK,All parameters acceptable,Routine monitoring
+E058,2026-07-28,WTP-04,6.5,8.5,5,0.2,1,8.64,6.1,1.18,FAIL,"Non-compliance: pH, turbidity, residual chlorine",Resample and investigate treatment process
+E059,2026-07-29,WTP-05,6.5,8.5,5,0.2,1,6.96,1.73,0.66,OK,All parameters acceptable,Routine monitoring
+E060,2026-07-30,WTP-06,6.5,8.5,5,0.2,1,7.2,0.59,0.68,OK,All parameters acceptable,Routine monitoring
