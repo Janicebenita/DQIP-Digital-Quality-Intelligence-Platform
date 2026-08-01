@@ -202,13 +202,35 @@ Generate a report whose title, evidence, quality characteristic, interpretation 
 
 ```mermaid
 flowchart LR
-    A[Select quality domain] --> B[Load CSV or Excel data]
-    B --> C[Validate domain schema]
-    C --> D[Apply limits and evaluation rules]
-    D --> E[Statistical and Six Sigma analysis]
-    E --> F[Risk and abnormality intelligence]
-    F --> G[Reasons and corrective measures]
-    G --> H[Dashboard, PDF and data export]
+
+A["🏭 Domain"] --> B["📂 Data Import"]
+
+B --> C{"Validation"}
+
+C -->|Passed| D["📏 Standards Engine"]
+
+C -->|Error| X["⚠ Validation Report"]
+
+D --> E["📈 Statistical Analysis"]
+
+E --> F["📊 Six Sigma"]
+
+F --> G["🧠 Quality Intelligence"]
+
+G --> H["⚠ Risk Assessment"]
+
+H --> I["💡 Recommendations"]
+
+I --> J["📑 Dashboard"]
+
+J --> K["📄 PDF"]
+
+J --> L["📊 Excel"]
+
+style C fill:#FFD54F
+style G fill:#90CAF9
+style H fill:#EF9A9A
+style J fill:#A5D6A7
 ```
 
 ---
