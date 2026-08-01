@@ -135,11 +135,11 @@ Evaluate dimensional inspection results, tolerance compliance, capability, proce
 
 ![DQIP manufacturing dashboard](docs/software-manufacturing-dashboard.png)
 
-### Domain-Specific Executive Reporting
+### Laboratory QA Evaluation Dashboard
 
-Generate a report whose title, evidence, quality characteristic, interpretation and corrective measures match the selected domain.
+Evaluate laboratory pH results against acceptance limits, monitor out-of-specification results and compare conformance across instruments.
 
-![DQIP domain report](docs/software-domain-report.png)
+![DQIP Laboratory QA evaluation dashboard](docs/software-domain-report.png)
 
 ---
 
