@@ -1,0 +1,61 @@
+Sample_ID,Test_Date,Batch,Analyst,Instrument_ID,Lower_Limit,Upper_Limit,pH_Result,Status,Remarks,Disposition
+L001,2026-06-01,B101,A1,pH-01,6.5,8.5,7.48,OK,Result within acceptance limits,Reported
+L002,2026-06-02,B101,A2,pH-01,6.5,8.5,7.48,OK,Result within acceptance limits,Reported
+L003,2026-06-03,B101,A3,pH-01,6.5,8.5,7.37,OK,Result within acceptance limits,Reported
+L004,2026-06-04,B101,A1,pH-01,6.5,8.5,7.4,OK,Result within acceptance limits,Reported
+L005,2026-06-05,B101,A2,pH-01,6.5,8.5,7.03,OK,Result within acceptance limits,Reported
+L006,2026-06-06,B102,A3,pH-01,6.5,8.5,7.34,OK,Result within acceptance limits,Reported
+L007,2026-06-07,B102,A1,pH-01,6.5,8.5,7.35,OK,Result within acceptance limits,Reported
+L008,2026-06-08,B102,A2,pH-01,6.5,8.5,6.32,FAIL,Out-of-specification result; repeat and investigation required,OOS investigation
+L009,2026-06-09,B102,A3,pH-01,6.5,8.5,7.51,OK,Result within acceptance limits,Reported
+L010,2026-06-10,B102,A1,pH-01,6.5,8.5,7.22,OK,Result within acceptance limits,Reported
+L011,2026-06-11,B103,A2,pH-01,6.5,8.5,6.94,OK,Result within acceptance limits,Reported
+L012,2026-06-12,B103,A3,pH-01,6.5,8.5,7.21,OK,Result within acceptance limits,Reported
+L013,2026-06-13,B103,A1,pH-01,6.5,8.5,7.62,OK,Result within acceptance limits,Reported
+L014,2026-06-14,B103,A2,pH-01,6.5,8.5,7.12,OK,Result within acceptance limits,Reported
+L015,2026-06-15,B103,A3,pH-02,6.5,8.5,7.48,OK,Result within acceptance limits,Reported
+L016,2026-06-16,B104,A1,pH-02,6.5,8.5,7.55,OK,Result within acceptance limits,Reported
+L017,2026-06-17,B104,A2,pH-02,6.5,8.5,8.71,FAIL,Out-of-specification result; repeat and investigation required,OOS investigation
+L018,2026-06-18,B104,A3,pH-02,6.5,8.5,6.89,OK,Result within acceptance limits,Reported
+L019,2026-06-19,B104,A1,pH-02,6.5,8.5,7.16,OK,Result within acceptance limits,Reported
+L020,2026-06-20,B104,A2,pH-02,6.5,8.5,7.25,OK,Result within acceptance limits,Reported
+L021,2026-06-21,B105,A3,pH-02,6.5,8.5,6.72,OK,Result within acceptance limits,Reported
+L022,2026-06-22,B105,A1,pH-02,6.5,8.5,7.56,OK,Result within acceptance limits,Reported
+L023,2026-06-23,B105,A2,pH-02,6.5,8.5,7.2,OK,Result within acceptance limits,Reported
+L024,2026-06-24,B105,A3,pH-02,6.5,8.5,7.41,OK,Result within acceptance limits,Reported
+L025,2026-06-25,B105,A1,pH-02,6.5,8.5,6.74,OK,Result within acceptance limits,Reported
+L026,2026-06-26,B106,A2,pH-02,6.5,8.5,7.89,OK,Result within acceptance limits,Reported
+L027,2026-06-27,B106,A3,pH-02,6.5,8.5,6.72,OK,Result within acceptance limits,Reported
+L028,2026-06-28,B106,A1,pH-02,6.5,8.5,7,OK,Result within acceptance limits,Reported
+L029,2026-06-29,B106,A2,pH-02,6.5,8.5,7.03,OK,Result within acceptance limits,Reported
+L030,2026-06-30,B106,A3,pH-01,6.5,8.5,7.4,OK,Result within acceptance limits,Reported
+L031,2026-07-01,B107,A1,pH-01,6.5,8.5,6.41,FAIL,Out-of-specification result; repeat and investigation required,OOS investigation
+L032,2026-07-02,B107,A2,pH-01,6.5,8.5,7.29,OK,Result within acceptance limits,Reported
+L033,2026-07-03,B107,A3,pH-01,6.5,8.5,6.99,OK,Result within acceptance limits,Reported
+L034,2026-07-04,B107,A1,pH-01,6.5,8.5,6.69,OK,Result within acceptance limits,Reported
+L035,2026-07-05,B107,A2,pH-01,6.5,8.5,8,OK,Result within acceptance limits,Reported
+L036,2026-07-06,B108,A3,pH-01,6.5,8.5,7.5,OK,Result within acceptance limits,Reported
+L037,2026-07-07,B108,A1,pH-01,6.5,8.5,7.36,OK,Result within acceptance limits,Reported
+L038,2026-07-08,B108,A2,pH-01,6.5,8.5,7.17,OK,Results approaching upper control region,Reported
+L039,2026-07-09,B108,A3,pH-01,6.5,8.5,7.15,OK,Results approaching upper control region,Reported
+L040,2026-07-10,B108,A1,pH-01,6.5,8.5,7.54,OK,Results approaching upper control region,Reported
+L041,2026-07-11,B109,A2,pH-01,6.5,8.5,6.82,OK,Results approaching upper control region,Reported
+L042,2026-07-12,B109,A3,pH-01,6.5,8.5,7.68,OK,Result within acceptance limits,Reported
+L043,2026-07-13,B109,A1,pH-01,6.5,8.5,7.11,OK,Result within acceptance limits,Reported
+L044,2026-07-14,B109,A2,pH-01,6.5,8.5,8.66,FAIL,Out-of-specification result; repeat and investigation required,OOS investigation
+L045,2026-07-15,B109,A3,pH-02,6.5,8.5,6.78,OK,Result within acceptance limits,Reported
+L046,2026-07-16,B110,A1,pH-02,6.5,8.5,7.4,OK,Result within acceptance limits,Reported
+L047,2026-07-17,B110,A2,pH-02,6.5,8.5,6.84,OK,Result within acceptance limits,Reported
+L048,2026-07-18,B110,A3,pH-02,6.5,8.5,7.01,OK,Result within acceptance limits,Reported
+L049,2026-07-19,B110,A1,pH-02,6.5,8.5,7.21,OK,Result within acceptance limits,Reported
+L050,2026-07-20,B110,A2,pH-02,6.5,8.5,7.18,OK,Result within acceptance limits,Reported
+L051,2026-07-21,B111,A3,pH-02,6.5,8.5,7.13,OK,Result within acceptance limits,Reported
+L052,2026-07-22,B111,A1,pH-02,6.5,8.5,7.63,OK,Result within acceptance limits,Reported
+L053,2026-07-23,B111,A2,pH-02,6.5,8.5,6.28,FAIL,Out-of-specification result; repeat and investigation required,OOS investigation
+L054,2026-07-24,B111,A3,pH-02,6.5,8.5,7.13,OK,Result within acceptance limits,Reported
+L055,2026-07-25,B111,A1,pH-02,6.5,8.5,7.33,OK,Result within acceptance limits,Reported
+L056,2026-07-26,B112,A2,pH-02,6.5,8.5,7.6,OK,Result within acceptance limits,Reported
+L057,2026-07-27,B112,A3,pH-02,6.5,8.5,7,OK,Result within acceptance limits,Reported
+L058,2026-07-28,B112,A1,pH-02,6.5,8.5,7.09,OK,Result within acceptance limits,Reported
+L059,2026-07-29,B112,A2,pH-02,6.5,8.5,7.63,OK,Result within acceptance limits,Reported
+L060,2026-07-30,B112,A3,pH-01,6.5,8.5,6.41,FAIL,Out-of-specification result; repeat and investigation required,OOS investigation

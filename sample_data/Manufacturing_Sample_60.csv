@@ -1,0 +1,61 @@
+Part_ID,Inspection_Date,Shift,Machine,Operator,Nominal_mm,LSL_mm,USL_mm,Diameter_mm,Status,Remarks,Disposition
+M001,2026-06-01,Day,CNC-01,OP01,50,49.9,50.1,49.912,OK,Within tolerance,Accepted
+M002,2026-06-02,Evening,CNC-01,OP02,50,49.9,50.1,49.962,OK,Within tolerance,Accepted
+M003,2026-06-03,Night,CNC-01,OP03,50,49.9,50.1,49.982,OK,Within tolerance,Accepted
+M004,2026-06-04,Day,CNC-01,OP04,50,49.9,50.1,50.041,OK,Within tolerance,Accepted
+M005,2026-06-05,Evening,CNC-01,OP01,50,49.9,50.1,50.01,OK,Within tolerance,Accepted
+M006,2026-06-06,Night,CNC-01,OP02,50,49.9,50.1,50.005,OK,Within tolerance,Accepted
+M007,2026-06-07,Day,CNC-01,OP03,50,49.9,50.1,49.986,OK,Within tolerance,Accepted
+M008,2026-06-08,Evening,CNC-02,OP04,50,49.9,50.1,50.033,OK,Within tolerance,Accepted
+M009,2026-06-09,Night,CNC-02,OP01,50,49.9,50.1,49.86,FAIL,Undersize after tool correction,Segregated for rework
+M010,2026-06-10,Day,CNC-02,OP02,50,49.9,50.1,49.993,OK,Within tolerance,Accepted
+M011,2026-06-11,Evening,CNC-02,OP03,50,49.9,50.1,49.934,OK,Within tolerance,Accepted
+M012,2026-06-12,Night,CNC-02,OP04,50,49.9,50.1,49.974,OK,Within tolerance,Accepted
+M013,2026-06-13,Day,CNC-02,OP01,50,49.9,50.1,50.02,OK,Within tolerance,Accepted
+M014,2026-06-14,Evening,CNC-02,OP02,50,49.9,50.1,50.043,OK,Within tolerance,Accepted
+M015,2026-06-15,Night,CNC-03,OP03,50,49.9,50.1,49.99,OK,Within tolerance,Accepted
+M016,2026-06-16,Day,CNC-03,OP04,50,49.9,50.1,50.011,OK,Within tolerance,Accepted
+M017,2026-06-17,Evening,CNC-03,OP01,50,49.9,50.1,49.984,OK,Within tolerance,Accepted
+M018,2026-06-18,Night,CNC-03,OP02,50,49.9,50.1,50.13,FAIL,Tool wear / offset drift suspected,Segregated for rework
+M019,2026-06-19,Day,CNC-03,OP03,50,49.9,50.1,50.038,OK,Within tolerance,Accepted
+M020,2026-06-20,Evening,CNC-03,OP04,50,49.9,50.1,50.041,OK,Within tolerance,Accepted
+M021,2026-06-21,Night,CNC-03,OP01,50,49.9,50.1,50.02,OK,Within tolerance,Accepted
+M022,2026-06-22,Day,CNC-01,OP02,50,49.9,50.1,49.926,OK,Within tolerance,Accepted
+M023,2026-06-23,Evening,CNC-01,OP03,50,49.9,50.1,49.988,OK,Within tolerance,Accepted
+M024,2026-06-24,Night,CNC-01,OP04,50,49.9,50.1,49.981,OK,Gradual upward trend observed,Accepted
+M025,2026-06-25,Day,CNC-01,OP01,50,49.9,50.1,49.951,OK,Gradual upward trend observed,Accepted
+M026,2026-06-26,Evening,CNC-01,OP02,50,49.9,50.1,50.012,OK,Gradual upward trend observed,Accepted
+M027,2026-06-27,Night,CNC-01,OP03,50,49.9,50.1,49.973,OK,Gradual upward trend observed,Accepted
+M028,2026-06-28,Day,CNC-01,OP04,50,49.9,50.1,50.002,OK,Gradual upward trend observed,Accepted
+M029,2026-06-29,Evening,CNC-02,OP01,50,49.9,50.1,49.88,FAIL,Undersize after tool correction,Segregated for rework
+M030,2026-06-30,Night,CNC-02,OP02,50,49.9,50.1,50,OK,Within tolerance,Accepted
+M031,2026-07-01,Day,CNC-02,OP03,50,49.9,50.1,50.037,OK,Within tolerance,Accepted
+M032,2026-07-02,Evening,CNC-02,OP04,50,49.9,50.1,49.986,OK,Within tolerance,Accepted
+M033,2026-07-03,Night,CNC-02,OP01,50,49.9,50.1,49.986,OK,Within tolerance,Accepted
+M034,2026-07-04,Day,CNC-02,OP02,50,49.9,50.1,50.007,OK,Within tolerance,Accepted
+M035,2026-07-05,Evening,CNC-02,OP03,50,49.9,50.1,49.992,OK,Within tolerance,Accepted
+M036,2026-07-06,Night,CNC-03,OP04,50,49.9,50.1,50.012,OK,Within tolerance,Accepted
+M037,2026-07-07,Day,CNC-03,OP01,50,49.9,50.1,50.15,FAIL,Tool wear / offset drift suspected,Segregated for rework
+M038,2026-07-08,Evening,CNC-03,OP02,50,49.9,50.1,50.074,OK,Within tolerance,Accepted
+M039,2026-07-09,Night,CNC-03,OP03,50,49.9,50.1,49.975,OK,Within tolerance,Accepted
+M040,2026-07-10,Day,CNC-03,OP04,50,49.9,50.1,50.004,OK,Within tolerance,Accepted
+M041,2026-07-11,Evening,CNC-03,OP01,50,49.9,50.1,50.065,OK,Within tolerance,Accepted
+M042,2026-07-12,Night,CNC-03,OP02,50,49.9,50.1,50.008,OK,Within tolerance,Accepted
+M043,2026-07-13,Day,CNC-01,OP03,50,49.9,50.1,50.009,OK,Within tolerance,Accepted
+M044,2026-07-14,Evening,CNC-01,OP04,50,49.9,50.1,50.009,OK,Within tolerance,Accepted
+M045,2026-07-15,Night,CNC-01,OP01,50,49.9,50.1,50.051,OK,Within tolerance,Accepted
+M046,2026-07-16,Day,CNC-01,OP02,50,49.9,50.1,49.974,OK,Within tolerance,Accepted
+M047,2026-07-17,Evening,CNC-01,OP03,50,49.9,50.1,49.984,OK,Within tolerance,Accepted
+M048,2026-07-18,Night,CNC-01,OP04,50,49.9,50.1,49.87,FAIL,Undersize after tool correction,Segregated for rework
+M049,2026-07-19,Day,CNC-01,OP01,50,49.9,50.1,49.955,OK,Within tolerance,Accepted
+M050,2026-07-20,Evening,CNC-02,OP02,50,49.9,50.1,50.054,OK,Within tolerance,Accepted
+M051,2026-07-21,Night,CNC-02,OP03,50,49.9,50.1,49.99,OK,Within tolerance,Accepted
+M052,2026-07-22,Day,CNC-02,OP04,50,49.9,50.1,50.041,OK,Within tolerance,Accepted
+M053,2026-07-23,Evening,CNC-02,OP01,50,49.9,50.1,49.968,OK,Within tolerance,Accepted
+M054,2026-07-24,Night,CNC-02,OP02,50,49.9,50.1,50.086,OK,Within tolerance,Accepted
+M055,2026-07-25,Day,CNC-02,OP03,50,49.9,50.1,50.087,OK,Within tolerance,Accepted
+M056,2026-07-26,Evening,CNC-02,OP04,50,49.9,50.1,50.12,FAIL,Tool wear / offset drift suspected,Segregated for rework
+M057,2026-07-27,Night,CNC-03,OP01,50,49.9,50.1,49.969,OK,Within tolerance,Accepted
+M058,2026-07-28,Day,CNC-03,OP02,50,49.9,50.1,50.026,OK,Within tolerance,Accepted
+M059,2026-07-29,Evening,CNC-03,OP03,50,49.9,50.1,50.035,OK,Within tolerance,Accepted
+M060,2026-07-30,Night,CNC-03,OP04,50,49.9,50.1,50.056,OK,Within tolerance,Accepted

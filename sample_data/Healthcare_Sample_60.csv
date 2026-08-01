@@ -1,0 +1,61 @@
+Visit_ID,Visit_Date,Shift,Department,Waiting_Time_min,Service_Time_min,Target_Max_min,Status,Remarks,Corrective_Action
+H001,2026-06-01,Day,OPD,29,18,30,OK,Target achieved,No action
+H002,2026-06-02,Evening,Radiology,32,23,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H003,2026-06-03,Night,Laboratory,16,12,30,OK,Target achieved,No action
+H004,2026-06-04,Day,Pharmacy,19,8,30,OK,Target achieved,No action
+H005,2026-06-05,Evening,OPD,26,12,30,OK,Target achieved,No action
+H006,2026-06-06,Night,Radiology,22,21,30,OK,Target achieved,No action
+H007,2026-06-07,Day,Laboratory,42,13,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H008,2026-06-08,Evening,Pharmacy,13,7,30,OK,Target achieved,No action
+H009,2026-06-09,Night,OPD,19,12,30,OK,Target achieved,No action
+H010,2026-06-10,Day,Radiology,25,18,30,OK,Target achieved,No action
+H011,2026-06-11,Evening,Laboratory,21,12,30,OK,Target achieved,No action
+H012,2026-06-12,Night,Pharmacy,15,9,30,OK,Target achieved,No action
+H013,2026-06-13,Day,OPD,28,14,30,OK,Target achieved,No action
+H014,2026-06-14,Evening,Radiology,20,17,30,OK,Target achieved,No action
+H015,2026-06-15,Night,Laboratory,18,15,30,OK,Target achieved,No action
+H016,2026-06-16,Day,Pharmacy,36,10,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H017,2026-06-17,Evening,OPD,26,13,30,OK,Target achieved,No action
+H018,2026-06-18,Night,Radiology,28,23,30,OK,Target achieved,No action
+H019,2026-06-19,Day,Laboratory,30,13,30,OK,Target achieved,No action
+H020,2026-06-20,Evening,Pharmacy,18,12,30,OK,Target achieved,No action
+H021,2026-06-21,Night,OPD,21,16,30,OK,Target achieved,No action
+H022,2026-06-22,Day,Radiology,35,19,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H023,2026-06-23,Evening,Laboratory,26,9,30,OK,Target achieved,No action
+H024,2026-06-24,Night,Pharmacy,15,9,30,OK,Target achieved,No action
+H025,2026-06-25,Day,OPD,20,12,30,OK,Target achieved,No action
+H026,2026-06-26,Evening,Radiology,32,18,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H027,2026-06-27,Night,Laboratory,19,11,30,OK,Target achieved,No action
+H028,2026-06-28,Day,Pharmacy,48,9,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H029,2026-06-29,Evening,OPD,29,15,30,OK,Target achieved,No action
+H030,2026-06-30,Night,Radiology,29,18,30,OK,Target achieved,No action
+H031,2026-07-01,Day,Laboratory,22,12,30,OK,Target achieved,No action
+H032,2026-07-02,Evening,Pharmacy,17,8,30,OK,Target achieved,No action
+H033,2026-07-03,Night,OPD,27,16,30,OK,Increasing waiting-time pattern,No action
+H034,2026-07-04,Day,Radiology,31,20,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H035,2026-07-05,Evening,Laboratory,24,10,30,OK,Increasing waiting-time pattern,No action
+H036,2026-07-06,Night,Pharmacy,17,5,30,OK,Increasing waiting-time pattern,No action
+H037,2026-07-07,Day,OPD,23,11,30,OK,Target achieved,No action
+H038,2026-07-08,Evening,Radiology,28,17,30,OK,Target achieved,No action
+H039,2026-07-09,Night,Laboratory,18,12,30,OK,Target achieved,No action
+H040,2026-07-10,Day,Pharmacy,22,9,30,OK,Target achieved,No action
+H041,2026-07-11,Evening,OPD,39,16,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H042,2026-07-12,Night,Radiology,32,20,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H043,2026-07-13,Day,Laboratory,17,13,30,OK,Target achieved,No action
+H044,2026-07-14,Evening,Pharmacy,19,5,30,OK,Target achieved,No action
+H045,2026-07-15,Night,OPD,18,16,30,OK,Target achieved,No action
+H046,2026-07-16,Day,Radiology,33,22,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H047,2026-07-17,Evening,Laboratory,25,11,30,OK,Target achieved,No action
+H048,2026-07-18,Night,Pharmacy,15,7,30,OK,Target achieved,No action
+H049,2026-07-19,Day,OPD,27,18,30,OK,Target achieved,No action
+H050,2026-07-20,Evening,Radiology,34,21,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H051,2026-07-21,Night,Laboratory,17,7,30,OK,Target achieved,No action
+H052,2026-07-22,Day,Pharmacy,45,9,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H053,2026-07-23,Evening,OPD,28,15,30,OK,Target achieved,No action
+H054,2026-07-24,Night,Radiology,33,20,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H055,2026-07-25,Day,Laboratory,20,11,30,OK,Target achieved,No action
+H056,2026-07-26,Evening,Pharmacy,14,9,30,OK,Target achieved,No action
+H057,2026-07-27,Night,OPD,31,14,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H058,2026-07-28,Day,Radiology,30,16,30,OK,Target achieved,No action
+H059,2026-07-29,Evening,Laboratory,34,12,30,FAIL,Waiting-time target exceeded,Review staffing and queue allocation
+H060,2026-07-30,Night,Pharmacy,22,9,30,OK,Target achieved,No action

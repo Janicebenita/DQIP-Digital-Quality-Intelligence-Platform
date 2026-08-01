@@ -1,0 +1,9 @@
+generated_demo/
+__pycache__/
+*.pyc
+.media_runtime/
+.story_runtime/
+generated_demo/
+outputs/
+node_modules/
+.publish_worktree/

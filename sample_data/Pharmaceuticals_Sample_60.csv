@@ -1,0 +1,61 @@
+Sample_ID,Test_Date,Batch_No,Product,Assay_LSL_pct,Assay_USL_pct,Dissolution_Min_pct,Assay_pct,Dissolution_pct,Status,Remarks,Disposition
+P001,2026-06-01,BT-202601,Tablet-A,95,105,80,99.75,92.1,OK,Meets release specification,Released
+P002,2026-06-02,BT-202602,Tablet-B,95,105,80,98.25,99,OK,Meets release specification,Released
+P003,2026-06-03,BT-202603,Tablet-C,95,105,80,100.13,99,OK,Meets release specification,Released
+P004,2026-06-04,BT-202604,Tablet-A,95,105,80,98.15,97.5,OK,Meets release specification,Released
+P005,2026-06-05,BT-202605,Tablet-B,95,105,80,98.92,96.3,OK,Meets release specification,Released
+P006,2026-06-06,BT-202606,Tablet-C,95,105,80,94.2,95,FAIL,Assay outside 95–105% specification,Batch held for OOS investigation
+P007,2026-06-07,BT-202607,Tablet-A,95,105,80,99.78,99.2,OK,Meets release specification,Released
+P008,2026-06-08,BT-202608,Tablet-B,95,105,80,100.54,98.3,OK,Meets release specification,Released
+P009,2026-06-09,BT-202609,Tablet-C,95,105,80,100.35,94.6,OK,Meets release specification,Released
+P010,2026-06-10,BT-202610,Tablet-A,95,105,80,99.8,96.4,OK,Meets release specification,Released
+P011,2026-06-11,BT-202611,Tablet-B,95,105,80,98.34,97.4,OK,Meets release specification,Released
+P012,2026-06-12,BT-202612,Tablet-C,95,105,80,98.53,100.1,OK,Meets release specification,Released
+P013,2026-06-13,BT-202613,Tablet-A,95,105,80,100.92,94.4,OK,Meets release specification,Released
+P014,2026-06-14,BT-202614,Tablet-B,95,105,80,106.1,96.6,FAIL,Assay outside 95–105% specification,Batch held for OOS investigation
+P015,2026-06-15,BT-202615,Tablet-C,95,105,80,98.05,98.4,OK,Meets release specification,Released
+P016,2026-06-16,BT-202616,Tablet-A,95,105,80,98.47,95.4,OK,Meets release specification,Released
+P017,2026-06-17,BT-202617,Tablet-B,95,105,80,100.84,94.8,OK,Meets release specification,Released
+P018,2026-06-18,BT-202618,Tablet-C,95,105,80,99.06,99.6,OK,Meets release specification,Released
+P019,2026-06-19,BT-202619,Tablet-A,95,105,80,99.05,96.3,OK,Meets release specification,Released
+P020,2026-06-20,BT-202620,Tablet-B,95,105,80,101.11,93.1,OK,Meets release specification,Released
+P021,2026-06-21,BT-202621,Tablet-C,95,105,80,100.37,94.2,OK,Meets release specification,Released
+P022,2026-06-22,BT-202622,Tablet-A,95,105,80,98.34,78,FAIL,Dissolution below minimum requirement,Batch held for investigation
+P023,2026-06-23,BT-202623,Tablet-B,95,105,80,100.47,96,OK,Meets release specification,Released
+P024,2026-06-24,BT-202624,Tablet-C,95,105,80,97.81,93.6,OK,Meets release specification,Released
+P025,2026-06-25,BT-202625,Tablet-A,95,105,80,99.15,93.6,OK,Meets release specification,Released
+P026,2026-06-26,BT-202626,Tablet-B,95,105,80,99.16,91.9,OK,Meets release specification,Released
+P027,2026-06-27,BT-202627,Tablet-C,95,105,80,94.7,97.1,FAIL,Assay outside 95–105% specification,Batch held for OOS investigation
+P028,2026-06-28,BT-202628,Tablet-A,95,105,80,101.8,96.4,OK,Meets release specification,Released
+P029,2026-06-29,BT-202629,Tablet-B,95,105,80,101.1,100,OK,Meets release specification,Released
+P030,2026-06-30,BT-202630,Tablet-C,95,105,80,101.68,96,OK,Meets release specification,Released
+P031,2026-07-01,BT-202631,Tablet-A,95,105,80,101.97,96.7,OK,Meets release specification,Released
+P032,2026-07-02,BT-202632,Tablet-B,95,105,80,102.01,97.9,OK,Assay upward trend; monitor blend uniformity,Released
+P033,2026-07-03,BT-202633,Tablet-C,95,105,80,97.55,95.3,OK,Assay upward trend; monitor blend uniformity,Released
+P034,2026-07-04,BT-202634,Tablet-A,95,105,80,99.28,96.6,OK,Assay upward trend; monitor blend uniformity,Released
+P035,2026-07-05,BT-202635,Tablet-B,95,105,80,100.66,97.1,OK,Assay upward trend; monitor blend uniformity,Released
+P036,2026-07-06,BT-202636,Tablet-C,95,105,80,101.25,97.1,OK,Meets release specification,Released
+P037,2026-07-07,BT-202637,Tablet-A,95,105,80,101.77,94.2,OK,Meets release specification,Released
+P038,2026-07-08,BT-202638,Tablet-B,95,105,80,100.24,92.5,OK,Meets release specification,Released
+P039,2026-07-09,BT-202639,Tablet-C,95,105,80,105.8,95.5,FAIL,Assay outside 95–105% specification,Batch held for OOS investigation
+P040,2026-07-10,BT-202640,Tablet-A,95,105,80,101.33,98.2,OK,Meets release specification,Released
+P041,2026-07-11,BT-202641,Tablet-B,95,105,80,97.16,93.5,OK,Meets release specification,Released
+P042,2026-07-12,BT-202642,Tablet-C,95,105,80,99.97,95.8,OK,Meets release specification,Released
+P043,2026-07-13,BT-202643,Tablet-A,95,105,80,99.63,95.3,OK,Meets release specification,Released
+P044,2026-07-14,BT-202644,Tablet-B,95,105,80,98.83,98.5,OK,Meets release specification,Released
+P045,2026-07-15,BT-202645,Tablet-C,95,105,80,98.93,96.4,OK,Meets release specification,Released
+P046,2026-07-16,BT-202646,Tablet-A,95,105,80,98.69,79,FAIL,Dissolution below minimum requirement,Batch held for investigation
+P047,2026-07-17,BT-202647,Tablet-B,95,105,80,98.4,97.5,OK,Meets release specification,Released
+P048,2026-07-18,BT-202648,Tablet-C,95,105,80,101.86,96,OK,Meets release specification,Released
+P049,2026-07-19,BT-202649,Tablet-A,95,105,80,99.94,94.9,OK,Meets release specification,Released
+P050,2026-07-20,BT-202650,Tablet-B,95,105,80,103.99,99.9,OK,Meets release specification,Released
+P051,2026-07-21,BT-202651,Tablet-C,95,105,80,93.9,91.9,FAIL,Assay outside 95–105% specification,Batch held for OOS investigation
+P052,2026-07-22,BT-202652,Tablet-A,95,105,80,98.86,94.3,OK,Meets release specification,Released
+P053,2026-07-23,BT-202653,Tablet-B,95,105,80,97.87,96.4,OK,Meets release specification,Released
+P054,2026-07-24,BT-202654,Tablet-C,95,105,80,97.93,98.5,OK,Meets release specification,Released
+P055,2026-07-25,BT-202655,Tablet-A,95,105,80,98.39,96.7,OK,Meets release specification,Released
+P056,2026-07-26,BT-202656,Tablet-B,95,105,80,101.45,94.1,OK,Meets release specification,Released
+P057,2026-07-27,BT-202657,Tablet-C,95,105,80,97.16,94,OK,Meets release specification,Released
+P058,2026-07-28,BT-202658,Tablet-A,95,105,80,102.46,93.3,OK,Meets release specification,Released
+P059,2026-07-29,BT-202659,Tablet-B,95,105,80,100.18,96.8,OK,Meets release specification,Released
+P060,2026-07-30,BT-202660,Tablet-C,95,105,80,98.33,97.6,OK,Meets release specification,Released
