@@ -1,0 +1,7 @@
+spec_version: "0.1.0"
+name: dqip-quality-investigator
+version: "0.1.0"
+description: >-
+  Assists quality professionals in reviewing DQIP analysis results,
+  investigating exceptions and process variation, and drafting
+  evidence-based corrective-action recommendations for human review.
